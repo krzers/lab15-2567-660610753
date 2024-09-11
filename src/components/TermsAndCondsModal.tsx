@@ -8,11 +8,11 @@ export default function TermsAndCondsModal({
   return (
     <Modal opened={opened} onClose={close} title="Terms and conditions">
       <Text color="dimmed">
-        1. Some long terms and conditions ...
+        กฏข้อแรกก็คือห้ามทิ้ง
         <br />
-        2. Some long terms and conditions ...
+        ข้อที่สองก็ยังห้ามทิ้ง
         <br />
-        3. Some long terms and conditions ...
+        ข้อที่สามก็ยังห้ามทิ้ง ฉันไม่ใช่ถังขยะ
       </Text>
       <Stack align="center" mt="sm">
         <Button onClick={close}>Confirm</Button>
